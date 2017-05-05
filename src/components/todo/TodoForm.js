@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types';
 
-const TodoForm = (props) => {
+export const TodoForm = (props) => {
   return (
     <form onSubmit={props.handleSubmit}>
       <input type="text"
@@ -10,8 +10,6 @@ const TodoForm = (props) => {
     </form>
   )
 }
-
-export default TodoForm
 
 TodoForm.propTypes = {
   currentTodo: PropTypes.string.isRequired,
