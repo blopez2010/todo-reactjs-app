@@ -34,7 +34,6 @@ export class Router extends Component {
     }
   }
 
-
   render() {
     return (
       <div>
